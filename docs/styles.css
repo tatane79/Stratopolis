@@ -19,6 +19,14 @@ h1 { font-size:clamp(3rem,7vw,6rem); line-height:.94; letter-spacing:-.055em; ma
 .features span { color:var(--red); font-weight:800; }
 .features h2,.rules h2 { font-size:2rem; margin:.5em 0; }
 .features p,.rules>p,.legal p { color:var(--muted); }
+.ai-showcase { max-width:1180px; margin:0 auto 120px; padding:70px; border-radius:28px; background:linear-gradient(145deg,#131a15,#101211); display:grid; grid-template-columns:.8fr 1.2fr; gap:70px; align-items:center; border:1px solid #202720; }
+.ai-copy h2 { margin:.25em 0; font-size:clamp(2.4rem,5vw,4.5rem); line-height:.98; letter-spacing:-.05em; }
+.ai-copy p:not(.eyebrow) { color:var(--muted); font-size:1.08rem; }
+.ai-screenshots { display:grid; grid-template-columns:repeat(2,1fr); gap:22px; }
+.ai-screenshots figure { margin:0; }
+.ai-screenshots img { display:block; width:100%; height:auto; border-radius:24px; border:1px solid #303630; box-shadow:0 24px 60px #000; }
+.ai-screenshots figcaption { display:flex; flex-direction:column; gap:4px; padding:16px 5px 0; }
+.ai-screenshots figcaption span { color:var(--muted); font-size:.92rem; }
 .showcase { max-width:1180px; margin:0 auto 110px; padding:0 24px; }
 .showcase>header { max-width:760px; margin-bottom:44px; }
 .showcase>header h2 { margin:.2em 0; font-size:clamp(2.2rem,5vw,4.3rem); line-height:1; letter-spacing:-.045em; }
@@ -37,4 +45,4 @@ h1 { font-size:clamp(3rem,7vw,6rem); line-height:.94; letter-spacing:-.055em; ma
 .legal h2 { margin-top:2em; }
 .legal hr { border:0; border-top:1px solid #2b302c; margin:60px 0; }
 footer { border-top:1px solid #202420; color:var(--muted); }
-@media (max-width:760px) { nav div { gap:12px; } .hero-content,.features,.rules { grid-template-columns:1fr; } .hero-content { gap:40px; } .app-icon { max-width:280px; } .screenshots { display:flex; overflow-x:auto; scroll-snap-type:x mandatory; padding:0 20px 28px; margin:0 -24px; } .screenshots figure { min-width:78vw; scroll-snap-align:center; } .rules { margin:0 16px 70px; padding:36px; gap:12px; } footer { align-items:flex-start; gap:20px; } footer div { flex-direction:column; gap:4px; } }
+@media (max-width:760px) { nav div { gap:12px; } .hero-content,.features,.rules,.ai-showcase { grid-template-columns:1fr; } .hero-content { gap:40px; } .app-icon { max-width:280px; } .ai-showcase { margin:0 16px 90px; padding:36px 24px; gap:36px; } .ai-screenshots { gap:12px; } .screenshots { display:flex; overflow-x:auto; scroll-snap-type:x mandatory; padding:0 20px 28px; margin:0 -24px; } .screenshots figure { min-width:78vw; scroll-snap-align:center; } .rules { margin:0 16px 70px; padding:36px; gap:12px; } footer { align-items:flex-start; gap:20px; } footer div { flex-direction:column; gap:4px; } }
