@@ -24,6 +24,7 @@
 - URL d’assistance : `https://tatane79.github.io/Stratopolis/support.html`
 - URL de confidentialité : `https://tatane79.github.io/Stratopolis/privacy.html`
 - URL marketing : `https://tatane79.github.io/Stratopolis/`
+- Copyright : `2026 Jonathan Lafarge`
 
 ## App Privacy proposée
 
