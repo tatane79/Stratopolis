@@ -19,6 +19,16 @@ h1 { font-size:clamp(3rem,7vw,6rem); line-height:.94; letter-spacing:-.055em; ma
 .features span { color:var(--red); font-weight:800; }
 .features h2,.rules h2 { font-size:2rem; margin:.5em 0; }
 .features p,.rules>p,.legal p { color:var(--muted); }
+.showcase { max-width:1180px; margin:0 auto 110px; padding:0 24px; }
+.showcase>header { max-width:760px; margin-bottom:44px; }
+.showcase>header h2 { margin:.2em 0; font-size:clamp(2.2rem,5vw,4.3rem); line-height:1; letter-spacing:-.045em; }
+.showcase>header>p:last-child { color:var(--muted); font-size:1.15rem; }
+.screenshots { display:grid; grid-template-columns:repeat(3,1fr); gap:28px; align-items:start; }
+.screenshots figure { margin:0; }
+.screenshots img { display:block; width:100%; height:auto; border-radius:28px; border:1px solid #303630; box-shadow:0 28px 70px #000; }
+.screenshots figcaption { display:flex; flex-direction:column; gap:5px; padding:20px 8px 0; }
+.screenshots figcaption strong { font-size:1.15rem; }
+.screenshots figcaption span { color:var(--muted); }
 .rules { max-width:1180px; margin:0 auto 100px; padding:70px; border-radius:28px; background:linear-gradient(135deg,#152b12,#251214); display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:center; }
 .credits { max-width:1180px; margin:0 auto 70px; padding:0 24px; color:var(--muted); font-size:.9rem; }
 .legal nav { border-bottom:1px solid #222; }
@@ -27,4 +37,4 @@ h1 { font-size:clamp(3rem,7vw,6rem); line-height:.94; letter-spacing:-.055em; ma
 .legal h2 { margin-top:2em; }
 .legal hr { border:0; border-top:1px solid #2b302c; margin:60px 0; }
 footer { border-top:1px solid #202420; color:var(--muted); }
-@media (max-width:760px) { nav div { gap:12px; } .hero-content,.features,.rules { grid-template-columns:1fr; } .hero-content { gap:40px; } .app-icon { max-width:280px; } .rules { margin:0 16px 70px; padding:36px; gap:12px; } footer { align-items:flex-start; gap:20px; } footer div { flex-direction:column; gap:4px; } }
+@media (max-width:760px) { nav div { gap:12px; } .hero-content,.features,.rules { grid-template-columns:1fr; } .hero-content { gap:40px; } .app-icon { max-width:280px; } .screenshots { display:flex; overflow-x:auto; scroll-snap-type:x mandatory; padding:0 20px 28px; margin:0 -24px; } .screenshots figure { min-width:78vw; scroll-snap-align:center; } .rules { margin:0 16px 70px; padding:36px; gap:12px; } footer { align-items:flex-start; gap:20px; } footer div { flex-direction:column; gap:4px; } }
