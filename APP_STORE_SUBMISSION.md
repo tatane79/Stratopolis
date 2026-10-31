@@ -24,7 +24,7 @@
 - URL d’assistance : `https://tatane79.github.io/Stratopolis/support.html`
 - URL de confidentialité : `https://tatane79.github.io/Stratopolis/privacy.html`
 - URL marketing : `https://tatane79.github.io/Stratopolis/`
-- Copyright : `2026 Jonathan Lafarge`
+- Copyright : à renseigner conformément à l’autorisation de Gigamic
 
 ## App Privacy proposée
 
@@ -38,6 +38,8 @@
 
 ## Checklist avant envoi
 
+- [ ] Autorisation écrite de Gigamic couvrant l’adaptation numérique, la distribution App Store, le nom Stratopolis et les éléments protégés
+- [ ] Crédit de l’autrice Annick Lobet et mentions Gigamic validés par le contrat d’autorisation
 - [ ] Contrat Apple Developer actif et accords fiscaux/bancaires finalisés
 - [ ] Bundle ID `com.jonathanlafarge.Stratopolis` enregistré
 - [ ] Game Center activé, classements/configuration de matchmaking vérifiés
